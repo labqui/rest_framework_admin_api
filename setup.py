@@ -10,7 +10,7 @@ TEST_REQUIREMENTS = (
 
 setup(
     name='rest_framework_admin_api',
-    version='0.0.1',
+    version='0.0.2',
     packages=[''],
     long_description=open('README.md', 'rt').read(),
     long_description_content_type="text/markdown",
@@ -22,5 +22,12 @@ setup(
     license='MIT',
     author='Thalles Rosa',
     author_email='labufes@gmail.com',
-    description='Um pacote que expõe o admin do django para uma API REST.'
+    description='Um pacote que expõe o admin do django para uma API REST.',
+    classifiers=[
+        'Development Status :: 5 - Production/Stable',
+        'Environment :: Web Environment',
+        'Intended Audience :: Developers',
+        'Programming Language :: Python',
+        'Framework :: Django',
+    ]
 )
