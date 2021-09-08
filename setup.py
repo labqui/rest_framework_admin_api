@@ -10,7 +10,7 @@ TEST_REQUIREMENTS = (
 
 setup(
     name='rest_framework_admin_api',
-    version='0.0.3',
+    version='0.0.4',
     packages=find_packages(),
     long_description=open('README.md', 'rt').read(),
     long_description_content_type="text/markdown",
