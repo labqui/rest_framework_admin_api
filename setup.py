@@ -1,4 +1,4 @@
-from setuptools import find_packages, setup
+from setuptools import setup
 
 REQUIREMENTS = (
     'Django==3.1.13',
@@ -9,12 +9,12 @@ TEST_REQUIREMENTS = (
 )
 
 setup(
-    name='django-admin-api',
+    name='rest_framework_admin_api',
     version='0.0.1',
     packages=[''],
     long_description=open('README.md', 'rt').read(),
     long_description_content_type="text/markdown",
-    url='https://github.com/labqui/django-admin-api',
+    url='https://github.com/labqui/rest_framework_admin_api',
     include_package_data=True,
     install_requires=REQUIREMENTS,
     tests_require=TEST_REQUIREMENTS,
