@@ -14,21 +14,14 @@ Classifier: Programming Language :: Python
 Classifier: Framework :: Django
 Description-Content-Type: text/markdown
 
-Try these steps...
+# django-admin-api
+Um pacote que expÃµe o admin do django para uma API REST.
 
-Step 01: Dump sqlite db to json
+```python
+REST_FRAMEWORK = {
+    ...
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework_admin_api.pagination.CustomPagination',
+    }
+```
 
-python3 manage.py dumpdata > data.json
-Step 02: Create tables without migration
-
-python3 manage.py migrate --run-syncdb
-Step 03: Open django shell. Then exclude contentype data
-
-python3 manage.py shell
-from django.contrib.contenttypes.models import ContentType
-ContentType.objects.all().delete()
-quit()
-Step 04: Load Data
-
-python3 manage.py loaddata data.json
 
