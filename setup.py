@@ -12,7 +12,7 @@ setup(
     name='rest_framework_admin_api',
     version='0.0.4',
     packages=['rest_framework_admin_api'],
-    long_description=open('../README.md', 'rt').read(),
+    long_description=open('./README.md', 'rt').read(),
     long_description_content_type="text/markdown",
     url='https://github.com/labqui/rest_framework_admin_api',
     include_package_data=True,
