@@ -1,0 +1,15 @@
+README.md
+setup.py
+rest_framework_admin_api/__init__.py
+rest_framework_admin_api/admin_api.py
+rest_framework_admin_api/decorators.py
+rest_framework_admin_api/meta_data.py
+rest_framework_admin_api/pagination.py
+rest_framework_admin_api/types.py
+rest_framework_admin_api/viewsets.py
+rest_framework_admin_api.egg-info/PKG-INFO
+rest_framework_admin_api.egg-info/SOURCES.txt
+rest_framework_admin_api.egg-info/dependency_links.txt
+rest_framework_admin_api.egg-info/not-zip-safe
+rest_framework_admin_api.egg-info/requires.txt
+rest_framework_admin_api.egg-info/top_level.txt
