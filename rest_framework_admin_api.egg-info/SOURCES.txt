@@ -3,6 +3,7 @@ setup.py
 rest_framework_admin_api/__init__.py
 rest_framework_admin_api/admin_api.py
 rest_framework_admin_api/decorators.py
+rest_framework_admin_api/exceptions.py
 rest_framework_admin_api/meta_data.py
 rest_framework_admin_api/pagination.py
 rest_framework_admin_api/types.py
