@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: rest-framework-admin-api
-Version: 0.0.4
+Version: 0.0.6
 Summary: Um pacote que expõe o admin do django para uma API REST.
 Home-page: https://github.com/labqui/rest_framework_admin_api
 Author: Thalles Rosa
