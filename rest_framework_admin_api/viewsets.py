@@ -5,7 +5,7 @@ from rest_framework.exceptions import NotFound
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
 
-from packages.rest_framework_admin_api.meta_data import MinimalMetadata
+from rest_framework_admin_api.meta_data import MinimalMetadata
 
 
 class FormModelViewSet(ModelViewSet):
