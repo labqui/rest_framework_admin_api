@@ -10,7 +10,7 @@ from rest_framework.metadata import SimpleMetadata
 from rest_framework.utils import model_meta
 from rest_framework.utils.model_meta import RelationInfo
 
-from rest_framework_admin_api.types import DateTimeType, KeyboardType, TypeFieldReact
+from packages;rest_framework_admin_api.types import DateTimeType, KeyboardType, TypeFieldReact
 
 
 class MinimalMetadata(SimpleMetadata):
